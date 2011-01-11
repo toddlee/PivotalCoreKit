@@ -78,13 +78,13 @@
 		AEE6913B12025A8000769ADC /* SpecHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE690FD1202584C00769ADC /* SpecHelper.m */; };
 		AEF15ACB11C97EA4005B4F92 /* PCKHTTPInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC4BF511C6E38D0027AB1B /* PCKHTTPInterface.m */; };
 		AEF15ACC11C97EA9005B4F92 /* PCKHTTPInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = AECC4BF411C6E38D0027AB1B /* PCKHTTPInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEF15ACF11C97EDE005B4F92 /* PivotalCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF15AC511C97E8B005B4F92 /* PivotalCoreKit.framework */; };
+		AEF15ACF11C97EDE005B4F92 /* PivotalCoreKit in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF15AC511C97E8B005B4F92 /* PivotalCoreKit */; };
 		AEF15AF111C97F4C005B4F92 /* NSURLConnection+Spec.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF15A1E11C97864005B4F92 /* NSURLConnection+Spec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEF15AF211C97F51005B4F92 /* NSURLConnection+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF15A1F11C97864005B4F92 /* NSURLConnection+Spec.m */; };
 		AEF15AFA11C97F95005B4F92 /* PSHKFakeHTTPURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF15AF811C97F95005B4F92 /* PSHKFakeHTTPURLResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEF15AFB11C97F95005B4F92 /* PSHKFakeHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF15AF911C97F95005B4F92 /* PSHKFakeHTTPURLResponse.m */; };
 		AEF15AFF11C97FF9005B4F92 /* PCKHTTPConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF15AFE11C97FF9005B4F92 /* PCKHTTPConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEF15B0911C98072005B4F92 /* PivotalSpecHelperKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF15AE011C97F15005B4F92 /* PivotalSpecHelperKit.framework */; };
+		AEF15B0911C98072005B4F92 /* PivotalSpecHelperKit in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF15AE011C97F15005B4F92 /* PivotalSpecHelperKit */; };
 		AEF15B4511C984EB005B4F92 /* PSHKFakeResponses.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF15B4311C984EB005B4F92 /* PSHKFakeResponses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEF15B4611C984EB005B4F92 /* PSHKFakeResponses.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF15B4411C984EB005B4F92 /* PSHKFakeResponses.m */; };
 /* End PBXBuildFile section */
@@ -287,7 +287,7 @@
 		AEC9DF2812C2D5E80039512D /* NSObjectSpec+MethodDecoration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObjectSpec+MethodDecoration.m"; sourceTree = "<group>"; };
 		AECC4BAA11C6E0C00027AB1B /* PCKHTTPInterfaceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCKHTTPInterfaceSpec.m; sourceTree = "<group>"; };
 		AECC4BAD11C6E1640027AB1B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AECC4BBA11C6E2280027AB1B /* Spec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Spec; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECC4BBA11C6E2280027AB1B /* Spec */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = Spec; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECC4BF411C6E38D0027AB1B /* PCKHTTPInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKHTTPInterface.h; sourceTree = "<group>"; };
 		AECC4BF511C6E38D0027AB1B /* PCKHTTPInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCKHTTPInterface.m; sourceTree = "<group>"; };
 		AEE6908C1202523700769ADC /* PSHKFixtures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHKFixtures.h; sourceTree = "<group>"; };
@@ -295,9 +295,9 @@
 		AEE690FD1202584C00769ADC /* SpecHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecHelper.m; sourceTree = "<group>"; };
 		AEF15A1E11C97864005B4F92 /* NSURLConnection+Spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+Spec.h"; sourceTree = "<group>"; };
 		AEF15A1F11C97864005B4F92 /* NSURLConnection+Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+Spec.m"; sourceTree = "<group>"; };
-		AEF15AC511C97E8B005B4F92 /* PivotalCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PivotalCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF15AC511C97E8B005B4F92 /* PivotalCoreKit */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = PivotalCoreKit; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF15AC711C97E8B005B4F92 /* PivotalCoreKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PivotalCoreKit-Info.plist"; sourceTree = "<group>"; };
-		AEF15AE011C97F15005B4F92 /* PivotalSpecHelperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PivotalSpecHelperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF15AE011C97F15005B4F92 /* PivotalSpecHelperKit */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = PivotalSpecHelperKit; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF15AE111C97F15005B4F92 /* PivotalSpecHelperKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PivotalSpecHelperKit-Info.plist"; sourceTree = "<group>"; };
 		AEF15AF811C97F95005B4F92 /* PSHKFakeHTTPURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHKFakeHTTPURLResponse.h; sourceTree = "<group>"; };
 		AEF15AF911C97F95005B4F92 /* PSHKFakeHTTPURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHKFakeHTTPURLResponse.m; sourceTree = "<group>"; };
@@ -331,8 +331,8 @@
 			files = (
 				AE138A5E11E3FF26004E825D /* OCHamcrest.framework in Frameworks */,
 				AE138ACF11E400D2004E825D /* OCMock.framework in Frameworks */,
-				AEF15ACF11C97EDE005B4F92 /* PivotalCoreKit.framework in Frameworks */,
-				AEF15B0911C98072005B4F92 /* PivotalSpecHelperKit.framework in Frameworks */,
+				AEF15ACF11C97EDE005B4F92 /* PivotalCoreKit in Frameworks */,
+				AEF15B0911C98072005B4F92 /* PivotalSpecHelperKit in Frameworks */,
 				AE138CB811E4F504004E825D /* Cedar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,8 +359,8 @@
 			isa = PBXGroup;
 			children = (
 				AECC4BBA11C6E2280027AB1B /* Spec */,
-				AEF15AC511C97E8B005B4F92 /* PivotalCoreKit.framework */,
-				AEF15AE011C97F15005B4F92 /* PivotalSpecHelperKit.framework */,
+				AEF15AC511C97E8B005B4F92 /* PivotalCoreKit */,
+				AEF15AE011C97F15005B4F92 /* PivotalSpecHelperKit */,
 				AE138E7011E542BF004E825D /* libPivotalCoreKit-StaticLib.a */,
 				AE138F4611E548B5004E825D /* libPivotalSpecHelperKit-StaticLib.a */,
 				6696DFC21266DE6C00111E23 /* UISpec.app */,
@@ -771,7 +771,7 @@
 			);
 			name = PivotalCoreKit;
 			productName = PivotalCoreKit;
-			productReference = AEF15AC511C97E8B005B4F92 /* PivotalCoreKit.framework */;
+			productReference = AEF15AC511C97E8B005B4F92 /* PivotalCoreKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		AEF15ADF11C97F15005B4F92 /* PivotalSpecHelperKit */ = {
@@ -789,7 +789,7 @@
 			);
 			name = PivotalSpecHelperKit;
 			productName = PivotalSpecHelperKit;
-			productReference = AEF15AE011C97F15005B4F92 /* PivotalSpecHelperKit.framework */;
+			productReference = AEF15AE011C97F15005B4F92 /* PivotalSpecHelperKit */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1172,7 +1172,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1182,6 +1182,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = 4.2;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PRODUCT_NAME = "PivotalCoreKit-StaticLib";
 			};
@@ -1191,7 +1192,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1201,6 +1202,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_VERSION = 4.2;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PRODUCT_NAME = "PivotalCoreKit-StaticLib";
 				ZERO_LINK = NO;
@@ -1221,13 +1223,14 @@
 				GCC_PREFIX_HEADER = "";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "PivotalSpecHelperKit-StaticLib";
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphonesimulator;
 				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Debug;
@@ -1245,13 +1248,14 @@
 				GCC_PREFIX_HEADER = "";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "PivotalSpecHelperKit-StaticLib";
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphonesimulator;
 				VALID_ARCHS = "x86_64 i386";
 				ZERO_LINK = NO;
 			};
