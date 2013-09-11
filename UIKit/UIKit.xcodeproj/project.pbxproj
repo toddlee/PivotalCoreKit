@@ -72,7 +72,6 @@
 		AEC40C8A174C203700474D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBCCBE7168B97DD0056EE83 /* Foundation.framework */; };
 		AEC40CB5174C22BD00474D2D /* UIActionSheet+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC40CAF174C22BD00474D2D /* UIActionSheet+Spec.m */; };
 		AEC40CB6174C22BD00474D2D /* UIAlertView+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC40CB1174C22BD00474D2D /* UIAlertView+Spec.m */; };
-		AEC40CB7174C22BD00474D2D /* UIViewController+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC40CB2174C22BD00474D2D /* UIViewController+Spec.m */; };
 		AEC40CB8174C22BD00474D2D /* UIWebView+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC40CB4174C22BD00474D2D /* UIWebView+Spec.m */; };
 		AEC40CBC174C23EB00474D2D /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC40C89174C203700474D2D /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */; };
 		AEC40CC0174C24CF00474D2D /* UIAlertViewSpec+Spec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEC40CBE174C24CF00474D2D /* UIAlertViewSpec+Spec.mm */; };
@@ -292,7 +291,6 @@
 		AEC40CAF174C22BD00474D2D /* UIActionSheet+Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Spec.m"; sourceTree = "<group>"; };
 		AEC40CB0174C22BD00474D2D /* UIAlertView+Spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Spec.h"; sourceTree = "<group>"; };
 		AEC40CB1174C22BD00474D2D /* UIAlertView+Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Spec.m"; sourceTree = "<group>"; };
-		AEC40CB2174C22BD00474D2D /* UIViewController+Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Spec.m"; sourceTree = "<group>"; };
 		AEC40CB3174C22BD00474D2D /* UIWebView+Spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Spec.h"; sourceTree = "<group>"; };
 		AEC40CB4174C22BD00474D2D /* UIWebView+Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Spec.m"; sourceTree = "<group>"; };
 		AEC40CB9174C230800474D2D /* UIKit+PivotalSpecHelperStubs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKit+PivotalSpecHelperStubs.h"; sourceTree = "<group>"; };
@@ -526,7 +524,6 @@
 				AEC40CAF174C22BD00474D2D /* UIActionSheet+Spec.m */,
 				AEC40CB0174C22BD00474D2D /* UIAlertView+Spec.h */,
 				AEC40CB1174C22BD00474D2D /* UIAlertView+Spec.m */,
-				AEC40CB2174C22BD00474D2D /* UIViewController+Spec.m */,
 				AEC40CB3174C22BD00474D2D /* UIWebView+Spec.h */,
 				AEC40CB4174C22BD00474D2D /* UIWebView+Spec.m */,
 			);
@@ -839,7 +836,6 @@
 			files = (
 				AEC40CB5174C22BD00474D2D /* UIActionSheet+Spec.m in Sources */,
 				AEC40CB6174C22BD00474D2D /* UIAlertView+Spec.m in Sources */,
-				AEC40CB7174C22BD00474D2D /* UIViewController+Spec.m in Sources */,
 				AEC40CB8174C22BD00474D2D /* UIWebView+Spec.m in Sources */,
 				AE86BD43179C7C910057DEAE /* UITabBarController+Spec.m in Sources */,
 			);
